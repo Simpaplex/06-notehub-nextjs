@@ -6,7 +6,7 @@ import styles from "./NoteDetails.module.css"
 interface NoteDetailsProps{
   params: Promise<{ id: string }>
 }
-
+// ----------------------------------------------------------------------
 export default async function NoteDetails({ params }: NoteDetailsProps) {
   const { id } = await params;
   
