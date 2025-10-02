@@ -12,7 +12,6 @@ import { useDebouncedCallback } from "use-debounce";
 import NoteForm from "@/components/NoteForm/NoteForm";
 import { Toaster } from "react-hot-toast";
 import Loader from "@/components/Loader/Loader";
-import { useParams } from "next/navigation";
 
 
 export default function NotesClient() {
