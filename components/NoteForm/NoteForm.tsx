@@ -19,7 +19,7 @@ interface NoteFormValues {
 const defaultFormValues: NoteFormValues = {
   title: '',
   content: '',
-  tag: '',
+  tag: 'Todo',
 };
 
 const NoteFormSchema = Yup.object().shape({
